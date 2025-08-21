@@ -21,3 +21,18 @@ var resturant = {
     "location": "New York",
     "rating": 4.5
 };
+
+void main(){
+
+    // Operators 1 - Creating a simple calorie calculator
+    var muffin = 300;
+    var muffinEaten = 2;
+    var totalCalories = muffin * muffinEaten; // --> 600
+    print("Total Calories: $totalCalories");
+
+    // Expressions
+    // Example 2 - Checking if user is adult or not
+
+    // Control Flow
+    // Example 3 - Block the user if not an adult
+}
