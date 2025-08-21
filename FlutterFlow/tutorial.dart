@@ -40,8 +40,33 @@ void main(){
     var userAge = user["age"] as int;
     var isAdult = userAge > 18;
     print("Is Adult: $isAdult");
+    if(isAdult){
+        print("Welcome to the website");
+    }
+    else{
+        print("You are not allowed to access this website");
+    }
 
 
     // Control Flow
     // Example 3 - Block the user if not an adult
+
+
+    // Definition of Loop
+    // A loop is a programming structure that repeats a sequenece of instructions until a specific condition is met.
+
+    // The most common loop is for loop
+    // You can use a For loop to iterate over a list
+    // Example: Creating a list of products for your eCommerce store
+    // Yoy can use a for loop to iterate over your list of products and display them on your website
+    // The loop will run a piece of code over and over FOR EACH item in the list.
+
+    // Example 1: Creating a list of products for your eCommerce store
+
+    var storeProducts = ["Nike", "Adidas", "Puma", "Reebok", "Converse"];
+    var count=0;
+    for(var i = 0; i<storeProducts.length;i++){
+        count++;
+    }
+    print(count);
 }
