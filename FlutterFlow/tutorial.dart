@@ -32,6 +32,15 @@ void main(){
 
     // Expressions
     // Example 2 - Checking if user is adult or not
+    var user = {
+        "name": "John Doe",
+        "age": 30
+    };
+
+    var userAge = user["age"] as int;
+    var isAdult = userAge > 18;
+    print("Is Adult: $isAdult");
+
 
     // Control Flow
     // Example 3 - Block the user if not an adult
