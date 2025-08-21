@@ -67,6 +67,8 @@ void main(){
     var count=0;
     for(var i = 0; i<storeProducts.length;i++){
         count++;
+        var product = storeProducts[i];
+        print("Product Name: ${product[i]}");
     }
     print(count);
 }
